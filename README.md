@@ -1,5 +1,5 @@
 # Proyecto 2: Recuperación de Documentos de Texto
-Fabrizio Garcia Castaneda - 201810160
+### Fabrizio Garcia Castaneda - 201810160
 Para el desarrollo de este proyecto se tomaron los tweets dados por el profesor,sobre los cuales se arma el índice invertido, se toma como tamaño del bloque de  índice invertido  como 10 000 palabras
 ## Construción del índice invertido
 Para la construción de este, existe una función llamada "cargar_datos" la cual recibe como parámetro la ruta del archivo donde se encuentran los tweets, se accede al texto de cada tweet y se le aplica las funciones de normalización para obtener las keywords de este y voy guardando cada termino, con su respectivo tf en el documento, en un diccionario el cual tendria esta forma: dicc={'keyword1':{'id1':tf1,'id2',tf2,..},...},el df de cada termino se hallaría con len(dicc['keywordi']), y cuando dicho diccionario llegue a tamaño máximo se va a guardar en memoria secundaria y a vaciar para comenzar de nuevo, asi tendriamos varios bloques de índice invertido en memoria secundaria lo cual hablaré en el siguiente punto.
