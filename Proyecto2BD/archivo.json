@@ -1,0 +1,30 @@
+[
+        {
+            "nombreColor":"rojo",
+            "palabra":"computador"
+        },
+        {
+            "nombreColor":"verde",
+            "palabra":"computadora"
+        },
+        {
+            "nombreColor":"azul",
+            "palabra":"computación"
+        },
+        {
+            "nombreColor":"cyan",
+            "palabra":"libros"
+        },
+        {
+            "nombreColor":"magenta",
+            "palabra":"libro"
+        },
+        {
+            "nombreColor":"amarillo",
+            "palabra":"camion"
+        },
+        {
+            "nombreColor":"negro",
+            "palabra":"camioneta"
+        }
+]
